@@ -30,6 +30,7 @@ const requestHandler = async (request, response) => {
       <div class="container text-center mt-5 pt-5">
       <h1>${message}</h1>
       <p>This is an application talking to a MySQL <code>${version}</code> database on host <code>${host}</code>, deployed with Score!</p>
+      <p>Bye!</p>
       </div>
     </body>
   </html>
