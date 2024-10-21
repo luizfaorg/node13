@@ -1,0 +1,15 @@
+apiVersion: humanitec.org/v1b1
+profile: humanitec/default-module
+spec:
+  # Set labels on the Kubernetes Deployment
+  deployment:
+    labels:
+      backstage.io/kubernetes-id: node13
+  # Set labels on the Kubernetes Pod
+  pod:
+    labels:
+      backstage.io/kubernetes-id: node13
+  # Set labels on the Kubernetes Service
+  service:
+    labels:
+      backstage.io/kubernetes-id: node13
